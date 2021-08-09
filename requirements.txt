@@ -1,0 +1,14 @@
+flask
+flask_restful
+Werkzeug
+pandas-datareader
+datetime
+matplotlib
+numpy
+firebase
+firebase_admin
+python-jwt
+gcloud
+sseclient
+pycrypto
+requests_toolbelt

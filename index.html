@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Market Analysis</title>
+    <link rel="stylesheet" href="static/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  
+
+
+
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">Stock Market</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page"
+              >Analysis</a
+            >
+          </li>
+        
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Integration with Python <span>Jupyter notebook</span></h1>
+        <p class="hero__description">Google firebase </p>
+        <button class="main__btn"><a href="#">Explore</a></button>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card"><i class="fas fa-layer-group"></i></div>
+        </div>
+        <div class="main__content">
+          <h1>Backend running python script</h1>
+          <h2>With store the data into firebase</h2>
+          <p>Retriveing it from database to web application</p>
+          <button class="main__btn"><a href="#">Firebase</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="main" id="about">
+    <div class="main__container">
+      <div class="main__content">
+        <form class="Date-form">
+        
+    
+          <label for="">Can you provide me Start date ?</label><br />
+          <label for="">year?</label><br />
+          <input class="sy" type="text"  required><br/>
+          <label for="">month?</label><br />
+          <input class="sm" type="text"  required><br/>
+          <label for="">date?</label><br />
+          <input class="sd" type="text"  required><br/>
+    
+          <label for="">Can you provide me End date ?</label><br />
+          <label for="">year?</label><br />
+          <input class="ey" type="text"  required><br/>
+          <label for="">month?</label><br />
+          <input class="em" type="text"  required><br/>
+          <label for="">date?</label><br />
+          <input class="ed" type="text"  required><br/>
+    
+          
+          <button type="submit">Submit</button>
+        </form>
+        <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js"></script>
+    
+        <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase.js"></script>
+    <script src="/static/js/data.js"></script>
+
+
+      
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__content">
+    <form class="Stock-form">
+      ^BSESN	BSE SENSEX	
+^NSEI	Nifty 50	
+^DJI	Dow				
+^IXIC	Nasdaq				
+^N225	Nikkei		
+^HSI	HANG SENG INDEX		
+^AXJO	S&P/ASX 
+^TWII	TSEC weighted index			
+^STI	STI Index				
+^JKSE	Jakarta Composite Index			
+^KS11	KOSPI Composite Index			
+^GSPC	S&P 		
+^DJI	Dow	3		
+^AORD	ALL ORDINARIES	
+^KLSE	FTSE Bursa Malaysia KLCI	
+^XAX	NYSE AMEX COMPOSITE INDEX	
+^RUT	Russell 
+^VIX	CBOE Volatility Index		
+^GSPTSE	S&P/TSX Composite index	
+^FTSE	FTSE 		
+^GDAXI	DAX PERFORMANCE-INDEX			
+
+   
+      <label for="">Stocks select by their above values </label><br />
+      <label for="">First Stock</label><br />
+      <input class="s1" type="text"  required><br/>
+      <label for="">Second Stock</label><br />
+      <input class="s2" type="text"  required><br/>
+      <label for="">Third Stock</label><br />
+      <input class="s3" type="text"  required><br/>
+      
+    <button type="submit">Submit</button></form>
+    <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase.js"></script>
+    <script src="static/js/stocks.js"></script>
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>Stock Open price of companies</h1>
+          <h3>The opening price is the price at which a security first trades upon the opening of an exchange on a trading day</h3>
+      <img src="https://storage.googleapis.com/stock-data-fc41e.appspot.com/graphopenprice"  alt="W3Schools.com" width="1200" height="500"  ;>
+      <h1>volume traded &interpretations</h1>
+      <h3>Trading volume is a measure of how much of a given financial asset has traded in a period of time</h3>
+      <img src="https://storage.googleapis.com/stock-data-fc41e.appspot.com/volume_traded"  alt="W3Schools.com" width="1200" height="500"  ;>
+      <h1>Total traded</h1>
+
+      <img src="https://storage.googleapis.com/stock-data-fc41e.appspot.com/totaltraded"  alt="W3Schools.com" width="1200" height="800"  ;>
+      <h1>Moving Average</h1>
+
+      <img src="https://storage.googleapis.com/stock-data-fc41e.appspot.com/movingavg"  alt="W3Schools.com" width="1200" height="800"  ;>
+  </div>
+</div>
+   
+   
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">STOCK   </a>
+          </div>
+          <p class="website__rights">© STOCK 2021. All rights reserved            </p>
+          <div class="social__icons">
+            <a href="/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="static/js/mobapp.js"></script>
+  </body>
+</html>
+
